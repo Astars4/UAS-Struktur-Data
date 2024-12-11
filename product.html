@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manajemen Pengelolaan Kendaraan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+    <nav class="navbar navbar-expand-lg shadow-sm fixed-top bg-cyan" style="background-color: cyan;">
+        <div class="container">
+            <a class="navbar-brand" href="#">Pengelolaan Kendaraan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active" aria-current="page" href="#product">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <div class="row text-center m-5">
+                <div class="col m-4">
+                    <h2>Spesifikasi Kendaraan</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center fs-5 text-center">
+                <div class="col-md-7">
+                    <p>Website kami memberikan spesifikasi merk sesuai dengan tipenya. Kami juga memberikan layanan untuk menampilkan review spesifikasi kendaraan yang kalian miliki.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="product" class="mb-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col m-4">
+                    <h2>Detail Kendaraan</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <label for="vehicleSelect" class="form-label">Pilih Spesifikasi Kendaraan:</label>
+                    <select id="vehicleSelect" class="form-select">
+                        <option value="" disabled selected>Pilih Kendaraan</option>
+                        
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <h3 id="vehicleTitle" class="text-center"></h3>
+                    <p id="vehicleDetails" class="text-center"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+      <section id="about">
+        <div class="footer-left">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.679412289853!2d117.16200687347434!3d-0.478108035273708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df67f5b0d0859d1%3A0xe350d32f3db49130!2sPlaza%20Motor!5e0!3m2!1sid!2sid!4v1733858393215!5m2!1sid!2sid"
+            width="100%" 
+            height="250" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+          <div class="footer-center mt-3">
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <p><span>Indonesia</span> Kalimantan Timur, Samarinda</p>
+            </div>
+            <div>
+              <i class="fa fa-phone"></i>
+              <p>+62 831-4020-6778</p>
+            </div>
+            <div>
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:marifinbachtiar@gmail.com">marifinbachtiar@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="footer-right mt-3">
+            <p class="footer-about">
+              <span>About</span>
+              Di web ini kita menerima produk untuk di review sesuai dengan spesifikasi. Silahkan memberikan saran dan komentar agar web yang kita buat semakin berkembang.</p>
+            <div class="footer-media">
+              <a href="https://api.whatsapp.com/send?phone=6283140206778" target="_blank"><i class="fa fa-whatsapp"></i></a>
+              <a href="https://web.facebook.com/arifin.bactiar.71" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/marifinbachtiar/" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.instagram.com/ashine_ri" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="https://id.linkedin.com/in/m-arifin-bachtiar-87b415257?trk=people-guest_people_search-card" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
